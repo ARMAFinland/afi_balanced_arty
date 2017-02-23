@@ -12,10 +12,10 @@ class CfgAmmo {
 	class Sh_82mm_AMOS: Sh_155mm_AMOS {
 		hit = 25;
 		indirectHit = 25;
-		indirectHitRange = 5;
+		indirectHitRange = 7;
 		//ACE3 frags
 			ace_frag_enabled = 1;
-			ace_frag_classes[] = {"ACE_frag_tiny","ACE_frag_tiny_HD","ACE_frag_small","ACE_frag_small_HD"};
+			ace_frag_classes[] = {"ACE_frag_medium_HD","ACE_frag_small","ACE_frag_small_HD"};
 			ace_frag_metal = 2700;
 			ace_frag_charge = 400;
 			ace_frag_gurney_c = 2440;
