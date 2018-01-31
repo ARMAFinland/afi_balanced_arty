@@ -59,25 +59,6 @@ class CfgAmmo {
 		ace_frag_force = 1;
 	};
 
-	//TESTING
-	class rhs_ammo_M1069;
-	class rhs_ammo_M1028: rhs_ammo_M1069 {
-		simulation = "shotSubmunitions";
-		submunitionAmmo = "rhs_ammo_flechettes_m1028";
-		submunitionConeType[] = {"randomcenter",300};
-		submunitionConeAngle = "2";
-		triggerTime = 0.01;
-	};
-	class rhs_ammo_flechettes;
-	class rhs_ammo_flechettes_m1028: rhs_ammo_flechettes
-	{
-		hit = 15;
-		indirectHit = 5;
-		indirectHitRange = 0.1 ;
-		typicalSpeed = 1400;
-		airFriction = -0.005;
-		caliber = 1;
-	};
 };
 
 class CfgMods {
