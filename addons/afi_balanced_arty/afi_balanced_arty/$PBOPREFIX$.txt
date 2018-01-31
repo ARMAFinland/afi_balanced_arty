@@ -1,0 +1,6 @@
+///////<HEADER>///////
+prefix=afi_balanced_arty
+Mikero=DePbo.dll
+Pbo Type is: Arma Addon
+Sha: '55BA8D5D79F8F16A7BAACCE2234806151E9809C3'
+//////</HEADER>//////
